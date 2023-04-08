@@ -63,11 +63,12 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Verdana";
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.5;
-  color: #212529;
+  /* color: #212529; */
   text-align: left;
   background-color: #fff;
 }
@@ -2771,9 +2772,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #695aa6;
-  border-color: #695aa6;
+  color: #000000;
+  background-color: #c0c0c0;
+  border-color: #c0c0c0;
 }
 
 .btn-primary:hover {
@@ -4523,7 +4524,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #695aa6;
+  background-color: #000000;
 }
 
 .nav-fill .nav-item {
@@ -11074,8 +11075,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
-  font-family: 'Baloo Paaji', cursive;
-  color: #695aa6;
+  /* font-family: 'Baloo Paaji', cursive;
+  color: #695aa6; */
 }
 
 .my-font {
@@ -11527,7 +11528,7 @@ pre .code {
 }
 
 .hamburger-box {
-  width: 30px;
+  width: 80px;
   height: 21px;
   display: inline-block;
   position: relative;
@@ -12089,7 +12090,7 @@ pre .code {
 .header .header-content .header-title .up {
   font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
   font-weight: 500;
-  color: #444;
+  color: #000;
   margin-bottom: 5px;
   position: relative;
   display: block;
@@ -12098,6 +12099,7 @@ pre .code {
 .header .header-content .header-title .down {
   font-size: calc(30px + (75 - 30) * ((100vw - 300px) / (1300 - 300)));
   margin-bottom: 0;
+  color: #000;
   position: relative;
   display: block;
 }
@@ -12179,6 +12181,7 @@ pre .code {
 .about-img-holder .about-img {
   width: 100%;
   margin-bottom: 15px;
+  margin-top: 25px;
 }
 
 .about-caption {
@@ -12217,8 +12220,8 @@ pre .code {
 
 .section .section-subtitle {
   margin-bottom: 6px;
-  font-weight: 400;
-  opacity: .6;
+  font-weight: 600;
+  opacity: 1;
 }
 
 .section-sm {
